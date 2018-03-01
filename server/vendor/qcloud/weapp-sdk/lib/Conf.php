@@ -34,7 +34,7 @@ class Conf {
         'host' => 'localhost',
         'port' => 3306,
         'user' => 'root',
-        'db'   => 'cAuth_1',
+        'db'   => 'cAuth',
         'pass' => 'HuiTeng168',
         'char' => 'utf8mb4'
     );
