@@ -21,10 +21,10 @@ class Conf {
     private static $RootPath = '';
 
     // 微信小程序 AppID
-    private static $AppId = 'wx1f852c01239c4651';
+    private static $AppId = '';
     
     // 微信小程序 AppSecret
-    private static $AppSecret = '2f209e29396f037226ba782929c6f078';
+    private static $AppSecret = '';
     
     // 微信小程序 AppSecret
     private static $UseQcloudLogin = true;
@@ -34,7 +34,7 @@ class Conf {
         'host' => 'localhost',
         'port' => 3306,
         'user' => 'root',
-        'db'   => 'cAuth',
+        'db'   => 'cAuth_1',
         'pass' => 'HuiTeng168',
         'char' => 'utf8mb4'
     );
@@ -58,13 +58,13 @@ class Conf {
     private static $TunnelSignatureKey = 'wexin';
 
     // 腾讯云 AppID
-    private static $QcloudAppId = 1256105809;
+    private static $QcloudAppId = 1256137276;
     
     // 腾讯云 QcloudSecretId
-    private static $QcloudSecretId = 'AKID98uSlpLDWZMtABrSiiTzGBtNdfT2JSJw';
+    private static $QcloudSecretId = 'AKID31njKoEaFjYFk4xJF0fAZt24vb6TiqmZ';
 
     // 腾讯云 QcloudSecretKey
-    private static $QcloudSecretKey = 'WorhIfngJhphJflcEagW6RWMxIOFrEWb';
+    private static $QcloudSecretKey = 'lLj183oOrDg3ILIBwW1LYbZu302zoS6q';
     
     // 微信消息通知 token
     private static $WxMessageToken = 'weixin';

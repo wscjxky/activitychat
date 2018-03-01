@@ -1,14 +1,25 @@
 <view class="container">
   <!-- 请求按钮 -->
   <view class="list">
-    <view class="list-item" bindtap="test">
+    <view class="list-item" bindtap="testAjax">
       <text>{{'msg'+msg}}</text>
     </view>
+          <web-view src="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxfdf007a79f182aed&redirect_uri=https://www.jianpianzi.com/tpchat/index.php/chat&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect'"></web-view>
+
     <view class="list-item" wx:if="{{requestResult}}">
-      <text class="request-text">{{'请求结果：' + requestResult}}</text>
+      <!-- wxml -->
+      <!-- 指向微信公众平台首页的web-view -->
+      <!-- <block wx:for="{{requestResult}}">
+        {{index}} 
+        <view wx:for="{{item}}">
+          <view wx:if="{{index == 0}}"> 
+           </view>
+        </view>
+      </block> -->
+
     </view>
-        <view class="list-item" bindtap="getLocation">
-        <text>获取位置信息{{latitude +'' + longitude}}</text>
-      </view>
+    <view class="list-item" bindtap="getLocation">
+      <text>获取位置信息{{latitude +'' + longitude}}</text>
+    </view>
   </view>
 </view>

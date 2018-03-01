@@ -10,9 +10,26 @@ Page({
   data: {
       requestResult: '',
       canIUseClipboard: wx.canIUse('setClipboardData'),
-      msg: 'init'
+      msg: ''
   },
-
+  testAjax: function () {
+    util.showBusy('请求中...')
+    var that = this
+    qcloud.request({
+      url: `${config.service.tpchathost}chat/product/ajax`,
+      login: false,
+      success(result) {
+        util.showSuccess('请求成功完成')
+        that.setData({
+          requestResult: result.data
+        })
+      },
+      fail(error) {
+        util.showModel('请求失败', error);
+        console.log('request fail', error);
+      }
+    })
+  },
   test: function () {
     util.showBusy('请求中...')
     var that = this
@@ -55,9 +72,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({
-      msg: 'test'
-    })
+    this.testAjax()
   },
 
   /**
@@ -71,7 +86,6 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-  
   },
 
   /**

@@ -4,13 +4,14 @@
 
 // 此处主机域名修改成腾讯云解决方案分配的域名
 var host = 'https://www.zuopianzi.com/activitychat/server/index.php/';
-
+var tpchathost = 
+'https://www.zuopianzi.com/tpchat/index.php/';
 var config = {
 
     // 下面的地址配合云端 Demo 工作
     service: {
         host,
-
+        tpchathost,
         // 登录地址，用于建立会话
         loginUrl: `${host}login`,
 
