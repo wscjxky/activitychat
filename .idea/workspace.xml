@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="184860b7-b8df-46c2-abb3-9dca98650ea0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app.json" afterPath="$PROJECT_DIR$/client/app.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/pages/test/test.wxml" afterPath="$PROJECT_DIR$/client/pages/test/test.wxml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +28,8 @@
       <file leaf-file-name="Conf.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/vendor/qcloud/weapp-sdk/lib/Conf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="462">
+              <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -167,7 +169,7 @@
       <workItem from="1519288753897" duration="4109000" />
       <workItem from="1519445507619" duration="5957000" />
       <workItem from="1519872865033" duration="3312000" />
-      <workItem from="1519891654955" duration="1183000" />
+      <workItem from="1519891654955" duration="1303000" />
     </task>
     <task id="LOCAL-00001" summary="server">
       <created>1519288848932</created>
@@ -239,11 +241,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519892045209</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="init">
+      <created>1519897116715</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1519897116715</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14561000" />
+    <option name="totallyTimeSpent" value="14681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="42" width="2048" height="1055" extended-state="0" />
@@ -607,8 +616,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/vendor/qcloud/weapp-sdk/lib/Conf.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="462">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
           <folding />
         </state>
       </provider>
